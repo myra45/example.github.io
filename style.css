@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./img/wall.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.form-login {
+  background: rgba(10, 94, 116, 0.15);
+  border: 3px solid rgba(172, 172, 172, 0.185);
+  padding: 30px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  color: #353535;
+  width: 400px;
+  box-shadow: 0px 0px 10px 5px rgba(35, 134, 214, 0.15);
+}
+
+.login-title {
+  color: #353535;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.input-box {
+  margin: 20px 0;
+  position: relative;
+}
+
+.input-box input {
+  width: 100%;
+  background: rgb(232, 235, 240);
+  border: none;
+  padding: 12px 12px 12px 45px;
+  border-radius: 99px;
+  outline: 3px solid transparent;
+  transition: 0.3s;
+  font-size: 17px;
+  color: #353535;
+  font-weight: 600;
+}
+
+.input-box input:focus {
+  outline: 3px solid rgba(10, 94, 116, 0.15);
+}
+
+.input-box input::placeholder {
+  font-size: 17px;
+}
+
+.input-box i {
+  color: #353535;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.remember-forget-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.remember-forget-box a {
+  text-decoration: none;
+  color: #353535;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.remember-forget-box a:hover {
+  color: rgb(10, 94, 116);
+  text-decoration: underline;
+}
+
+.login-btn {
+  background-color: rgb(10, 94, 116);
+  color: rgb(232, 235, 240);
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 99px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+  transition: .3s;
+  outline: 3px solid transparent;
+}
+
+.login-btn:focus {
+  outline: 5px solid rgba(12, 143, 250, 0.1);
+}
+
+.login-btn:hover {
+  background-color: rgb(25, 78, 138)
+}
+
+.register a {
+  text-decoration: none;
+  color: #353535;
+  font-weight: 600;
+}
+
+.register a:hover {
+  color: rgb(10, 94, 116);
+  text-decoration: underline;
+}
